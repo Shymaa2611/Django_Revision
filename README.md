@@ -12,20 +12,22 @@
 
 ![image](djangoArchitecture.png)
 
-- Django Views 
-Django Views are the backbone of handling user requests and rendering responses. There are two primary paradigms for implementing views: Function Based Views (FBVs) and Class Based Views (CBVs). 
+## Django Views 
+- Django Views are the backbone of handling user requests and rendering responses. There are two primary  
+  paradigms for implementing views: Function Based Views (FBVs) and Class Based Views (CBVs). 
 
 ![image](CRUD.png)
 
-- Django Models
-Django Model is the backbone of database operations, facilitating seamless management of data. This guide delves into various aspects of Django Models, starting from the fundamental operations of inserting, updating, and deleting data using the Object-Relational Mapping (ORM) provided by Django.
+## Django Models
+- Django Model is the backbone of database operations, facilitating seamless management of data. This 
+  guide delves into various aspects of Django Models, starting from the fundamental operations of inserting, updating, and deleting data using the Object-Relational Mapping (ORM) provided by Django.
 
 
-- Django Urls
-a crucial mechanism for directing incoming requests to the appropriate views within your web application.
+## Django Urls
+- a crucial mechanism for directing incoming requests to the appropriate views within your web application.
 
-- Django Templates 
-this contain on frontend pages and through it can easily connect between frontend and backend .
+## Django Templates 
+- this contain on frontend pages and through it can easily connect between frontend and backend .
 
 
 
