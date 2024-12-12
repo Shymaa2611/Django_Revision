@@ -1,11 +1,11 @@
-<html>
-    <style>
-        .h1{
-            color:'red'
-        }
-    </style>
-<body>
-<div style='color:red;width:200px; height=200px'></div>
-<h1> ALI</h1>
-</body>
-</html>
+<h1>Blog Posts</h1>
+<a href="create/">Add New Post</a>
+<ul>
+    {% for post in blog %}
+        <li>
+            <a href="{{ post.id }}/">{{ post.title }}</a>
+            <a href="{{ post.id }}/update/">Edit</a>
+            <a href="{{ post.id }}/delete/">Delete</a>
+        </li>
+    {% endfor %}
+</ul>

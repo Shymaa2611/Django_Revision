@@ -1,0 +1,7 @@
+<h1>{{ post.title|default:"Add New Post" }}</h1>
+<form method="post">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Save</button>
+</form>
+<a href="../">Cancel</a>
