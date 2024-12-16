@@ -3,6 +3,7 @@
 ## Session Authentication
 This is the default authentication class used by DRF. It relies on Django's built-in session authentication, where the client sends a session ID to the server for authentication.
 ## Endpoint 
+```bash 
 - Signup (http://127.0.0.1:8000/signup/)
 
 POST METHOD 
@@ -34,6 +35,7 @@ POST METHOD
 }
 
 - Logout (http://127.0.0.1:8000/logout/)
+```
 
 ## Basic Authentication
 Basic authentication sends the username and password in the HTTP request headers. It’s simple and works across many different platforms.
@@ -42,6 +44,7 @@ Basic authentication sends the username and password in the HTTP request headers
 Token-based authentication involves the client sending an authorization token (usually a JWT or a custom token) in the request header. It's commonly used for mobile or single-page applications .
 
 ## Endpoint 
+```bash
 - Signup (http://127.0.0.1:8000/signup/)
 
 POST METHOD 
@@ -80,11 +83,12 @@ Header
 key                                value
 Authorization                     Token<token>
 
-
+```
 ## Jwt Authenication
 JWT is widely used for stateless authentication in web and mobile applications. It allows secure transmission of information as a JSON object.
 
 ## Endpoint 
+```bash
 - Signup (http://127.0.0.1:8000/signup/)
 
 POST METHOD 
@@ -119,11 +123,13 @@ POST METHOD
 {
 "refresh_token":"your-refresh_token"
 }
+```
 
 ## OAuth2 Authentication
 OAuth2 is a widely adopted protocol that allows third-party applications to access a user's resources without exposing their credentials. It is highly flexible and secure.
 
 ## Endpoint 
+```bash
 - Signup (http://127.0.0.1:8000/signup/)
 
 POST METHOD 
@@ -158,4 +164,4 @@ POST METHOD
 {
 "refresh_token":"your-refresh_token"
 }
-
+```
